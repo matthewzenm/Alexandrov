@@ -1,0 +1,39 @@
+\documentclass{book}
+
+\usepackage[paper=b5paper]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[shortlabels]{enumitem}
+\usepackage{tikz-cd}
+% \usepackage{stickstootext}
+% \usepackage[stix2]{newtxmath}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[chapter]
+\newtheorem{eg}[defn]{Example}
+\theoremstyle{plain}
+\newtheorem{thm}[defn]{Theorem}
+\newtheorem{prop}[defn]{Proposition}
+\newtheorem{lem}[defn]{Lemma}
+\newtheorem{cor}[defn]{Corollary}
+\theoremstyle{remark}
+\newtheorem{rem}[defn]{Remark}
+
+\title{Notes on Alexandrov Spaces}
+\author{Mengchen Zeng}
+\date{Last Compile: \today}
+
+\begin{document}
+
+\maketitle
+\frontmatter
+\tableofcontents
+\input{preface.tex}
+
+\mainmatter
+\input{topology.tex}
+
+\end{document}
